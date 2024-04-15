@@ -1,0 +1,5 @@
+n_layers choice [2, 3]
+n_heades choice [2, 3]
+attn_dropout_prob choice [0.2, 0.5]
+hidden_dropout_prob choice [0.2, 0.5]
+MAX_ITEM_LIST_LENGTH choice [50, 200]

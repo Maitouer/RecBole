@@ -10,7 +10,6 @@
 
 import argparse
 import os
-import numpy as np
 
 from recbole.trainer import HyperTuning
 from recbole.quick_start import objective_function
@@ -18,6 +17,9 @@ import ray
 from ray import tune
 from ray.tune.schedulers import ASHAScheduler
 import math
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 def hyperopt_tune(args):
